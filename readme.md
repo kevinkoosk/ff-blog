@@ -33,24 +33,16 @@ Authored through vibe coding by Kevin Koo Seng Kiat with assistance from ChatGPT
 ## Files
 
 You should see these files:
-
-/
-|- index.php
-|- display.php
-|- editor.php
-|- initialize.php
-|- users.php
-|- logout.php
-|- Parsedown.php
-
-|- rss.php
-|- css/
-|		|- bootstrap.min.css
-|- js/
-
-|		|- bootstrap.bundle.min.js
-
-
+- index.php 
+- display.php 
+- editor.php 
+- initialize.php
+- users.php 
+- logout.php 
+- Parsedown.php 
+- rss.php 
+- css/ bootstrap.min.css 
+- js/ bootstrap.bundle.min.js
 
 
 ## Installation
@@ -59,6 +51,8 @@ You should see these files:
 2. Ensure that there are no old databases.
 3. Run the "initialize.php" script to set up the blog.db database.
 4. This will also set up the username "admin" and password "admin123" for the database.
+
+
 
 ## SQLite database (Important!)
 
@@ -84,11 +78,12 @@ You should see these files:
 
 ## Media Manager
 
-1. Use my other script "FF-Media-Manager" (also on Github) as the media editor.
+1. Use my other script ["FF-Media-Manager"](https://github.com/kevinkoosk/ff-media-manager) (also on Github) as the media editor.
 2. You can upload images, audio, video, PDF, etc. with that script.
-3. It's a separate script, so that you can set up a CDN server. (e.g. https://cdn.domain.net.)
+3. It's a separate script, so that you can set up a CDN server on a different domain or a subdomain of your blog. (e.g. https://cdn.domain.net.)
 
 ## Copyright
 
 Copyright is claimed by Kevin Koo Seng Kiat.
+
 
